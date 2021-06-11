@@ -1,5 +1,4 @@
-# # Mod 4 Project:
-## Washington DC - Virginia Metro Area: House Price Forecast
+# Project4: Washington DC - Virginia Metro Area: House Price Forecast
 
 by Mengyu Jackson
 
