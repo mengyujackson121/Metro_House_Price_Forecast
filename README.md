@@ -1,13 +1,16 @@
-# Phase 1 Project Templates and Examples
+# Project4: Washington DC - Virginia Metro Area: House Price Forecast
 
-This repo contains templates and examples to help you get started with your Phase 1 Project. Each of these is in a separate branch as explained below.
+by Mengyu Jackson
 
-- The **template-mvp** branch is the template you should use to for your Phase 1 Project. MVP stands for Minimum Viable Product, but this isn't meant in a negative way - if your project uses this template, it will be functional and accessible.
 
-- The **example-mvp** branch is an example project using the MVP template.
+## Business Problem
+Mortgage lenders would like to predict mean house prices to minimize risk and increase profit. They also need to know how certain the predictions are. The goal is to predict house prices as far into the future as possible.
 
-Once you've completed your project using the MVP template, you can improve it using the Above and Beyond (AAB) template if you have time:
 
-- The **template-aab** branch is the AAB template to use to keep improving your project.
+## Data 
+Monthly average house prices from 1996 to 2018. After some statistical analysis, I realized there were fundamental differences between house price trends from 1996-2006 and 2008-2018. We did not include any data except the price for this model.
 
-- The **example-aab** branch is an example project using the AAB template.
+
+## Final Result
+The model is not great past 3 month forecasts. To get a better result, a different process (not ARIMA-based) or additional data is required. ARIMA has been fully tried on the current data. Potential data for improving future models: monthly unemployment rates, interest rates, stock index prices, house prices in nearby areas, etc.
+
